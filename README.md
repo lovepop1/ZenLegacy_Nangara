@@ -1,6 +1,6 @@
 ﻿# zenlegacy-GenAI
 
-##Overview
+###Overview
 Nanagara is a revolutionary tool designed to automate the generation of Docker, Docker Compose, and Kubernetes files for various frameworks, drastically reducing the time and effort required for manual configuration. Deploying applications has never been easier, especially for developers who often struggle to create accurate and efficient Docker and Kubernetes scripts.
 
 With Nanagara, we provide:
@@ -9,7 +9,7 @@ AI-powered accurate script generation using LangChain, simplifying the setup for
 GitHub URL deployment, where users can directly deploy working projects from GitHub. Nanagara automatically builds Docker images, runs Docker Compose files, and sets up the application for deployment.
 By simply inputting your environment variables, you can skip the hassle of script writing and focus on building your project. The generated scripts are accurate, tested, and ready for deployment, significantly simplifying the process for any developer or team.
 
-##Features
+###Features
 1. AI-Powered Script Generation
 Nanagara uses LangChain to provide automated Docker, Docker Compose, and Kubernetes scripts that are pre-tested and functional. The only thing you need to do is replace placeholder environment variables with your own, and the scripts will work perfectly.
 
@@ -36,7 +36,7 @@ streamlit run main.py   Features of the Streamlit App
 Chat Mode: Powered by Groqchat using the Llama model, providing interactive chat functionalities. This mode is used for user requests and generates responses for accurate Docker and Kubernetes files.
 Script Generation: For now, the system supports generating scripts for Flask backends with MySQL databases. Users can input details in a prompt, and the app generates highly accurate deployment files, which can be expanded to other frameworks with minimal effort.
 
-##Future Improvements
+###Future Improvements
 We are continuously improving Nanagara to provide additional services, including:
 
 Automatic requirements.txt generation: Automating the creation of Python requirements.txt files for any project.
@@ -49,7 +49,7 @@ Document Parsing: Users will be able to provide application descriptions from PD
 Kubernetes Note
 While Nanagara generates Kubernetes files, these have not been fully tested yet. We are actively working on finding the most accurate way to test and ensure they work smoothly in production environments.
 
-##Conclusion
+###Conclusion
 Nanagara provides a dual service that significantly helps with deployment:
 
 Accurate, AI-powered generation of Docker, Docker Compose, and Kubernetes files, customized for specific environments and frameworks.
